@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Website</title>
+    <style>
+        /* Style for sections */
+        .section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 36px;
+        }
+
+        /* Set background images for each section */
+        .section:nth-child(1) {
+            background-image: url("C:\Users\student\Downloads\mountains-100367_640.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .section:nth-child(2) {
+            background-image: url("C:\Users\student\Downloads\tianjin-2185510_640.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .section:nth-child(3) {
+            background-image: url("C:\Users\student\Downloads\vw-bus-1845719_640.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        /* Style for text inside sections */
+        .section h1 {
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h1>Section 1</h1>
+    </div>
+    <div class="section">
+        <h1>Section 2</h1>
+    </div>
+    <div class="section">
+        <h1>Section 3</h1>
+    </div>
+</body>
+</html>
